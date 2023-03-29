@@ -302,6 +302,41 @@ ul
 {
     margin-right: 15px;
 }
+.aside .footer
+{
+    position: absolute;
+    bottom: 0%;
+}
+.aside .footer .social-icons a
+{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 37px;
+    background-color: var(--skin-color);
+    color: var(--bg-black-100);
+    font-size: 18px;
+    margin: 1.5px;
+    transition: 0.3s;
+}
+.aside .footer .social-icons a:hover
+{
+    transform: scale(1.05);
+}
+.aside .footer p
+{
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+    padding: 10px;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s;
+    margin-top: 5px;
+    color: var(--text-black-900);
+}
 /* home */
 .home
 {
@@ -422,6 +457,10 @@ h3.my-profession
     font-size: 16px;
     color: var(--text-black-900);
     border-bottom: 1px solid var(--bg-black-50);
+}
+.about .about-content .personal-info .info-item p i
+{
+    color: var(--skin-color);
 }
 .about .about-content .personal-info .info-item p span
 {

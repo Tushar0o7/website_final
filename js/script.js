@@ -1,8 +1,9 @@
 /* ============================== typing animation ============================ */
-var typed = new Typed(".typing",{
-  strings:["","Data Engineer", "BigData Engineer", "DataBase Administrator"],
+let typed = new Typed(".typing",{
+  strings:["Data Engineer", "BigData Engineer", "DataBase Administrator"],
   typeSpeed:100,
-  BackSpeed:60,
+  backSpeed:60,
+  backDelay:700,
   loop:true
 })
 /* ============================== Aside ============================ */
