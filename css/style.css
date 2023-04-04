@@ -166,7 +166,6 @@ ul {
   white-space: nowrap;
   border: none;
   background: var(--skin-color);
-  /* opacity: 0.8; */
   transition: all 0.3s ease;
 }
 .btn:hover {
@@ -175,6 +174,7 @@ ul {
 .shadow-dark {
   box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
+
 /* aside */
 .aside {
   width: 270px;
@@ -281,6 +281,7 @@ ul {
   top: 0;
 }
 .aside .nav {
+  text-align: center;
   margin-top: 50px;
 }
 .aside .nav li {
@@ -294,6 +295,10 @@ ul {
   border-bottom: 1px solid var(--bg-black-50);
   color: var(--text-black-900);
   padding: 5px 15px;
+}
+.aside .nav li a:hover {
+  letter-spacing: 0.2rem;
+  color: var(--skin-color);
 }
 .aside .nav li a.active {
   color: var(--skin-color);
