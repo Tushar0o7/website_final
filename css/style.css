@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@200;300;400;500;600&display=swap");
 :root {
   --bg-black-900: #f2f2fc;
   --bg-black-100: #fdf9ff;
@@ -110,6 +110,9 @@ ul {
   padding-left: 15px;
   padding-right: 15px;
 }
+.padd-23 {
+  padding-left: 23px;
+}
 .container {
   max-width: 1100px;
   width: 100%;
@@ -158,6 +161,7 @@ ul {
 }
 .btn {
   font-size: 18px;
+  font-family: "Kaushan Script", cursive;
   font-weight: 500;
   padding: 12px 35px;
   color: var(--bg-black-900);
@@ -206,8 +210,8 @@ ul {
   position: relative;
 }
 .aside .logo a span {
-  font-family: "Clicker Script", cursive;
-  font-size: 40px;
+  font-family: "Kaushan Script", cursive;
+  font-size: 35px;
 }
 .aside .logo a::before {
   content: "";
@@ -338,10 +342,9 @@ ul {
   color: var(--text-black-900);
 }
 .aside .footer p span {
-  font-family: "Clicker Script", cursive;
-  font-size: 20px;
+  font-family: "Kaushan Script", cursive;
+  font-size: 17px;
   color: var(--skin-color);
-  font-weight: bold;
 }
 /* home */
 .home {
@@ -358,7 +361,7 @@ h3.hello {
   margin: 15px 0;
 }
 h3.hello span {
-  font-family: "Clicker Script", cursive;
+  font-family: "Kaushan Script", cursive;
   font-size: 30px;
   font-weight: 700;
   color: var(--skin-color);
