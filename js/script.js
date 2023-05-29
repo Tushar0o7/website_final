@@ -98,3 +98,26 @@ document.querySelectorAll("a").forEach((links) => {
     cursor2.classList.remove("active");
   };
 });
+
+// Age Update function
+window.addEventListener("DOMContentLoaded", function () {
+  var birthDate = new Date("1997-10-02");
+  var ageElement = document.getElementById("age");
+
+  function calculateAge() {
+    var currentDate = new Date();
+    var age = currentDate.getFullYear() - birthDate.getFullYear();
+
+    if (
+      currentDate.getMonth() < birthDate.getMonth() ||
+      (currentDate.getMonth() === birthDate.getMonth() &&
+        currentDate.getDate() < birthDate.getDate())
+    ) {
+      age--;
+    }
+    ageElement.textContent = age;
+  }
+  calculateAge();
+
+  setInterval(calculateAge, 1000 * 60 * 60 * 24);
+});

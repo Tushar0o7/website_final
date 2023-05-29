@@ -9,7 +9,7 @@
     <meta name="title" content="DataWithTushar" />
     <meta
       name="keywords"
-      content="Tushar, tushar, basak, Basak, Tushar Basak, TUSHAR BASAK, tushar basak, Data engineering, Big Data, Data processing, ETL (Extract, Transform, Load), Database management, SQL (Structured Query Language), Cloud computing, Data architecture, Data warehousing, Data modeling, Data analytics, Data visualization, Python programming, Business intelligence, Data integration, Data pipelines, Data quality assurance, Hadoop, Spark"
+      content="Tushar, tushar, basak, Basak, Tushar Basak, TUSHAR BASAK, tushar basak, website, Data engineering, Big Data, Data processing, ETL (Extract, Transform, Load), Database management, SQL (Structured Query Language), Cloud computing, Data architecture, Data warehousing, Data modeling, Data analytics, Data visualization, Python programming, Business intelligence, Data integration, Data pipelines, Data quality assurance, Hadoop, Spark"
     />
     <meta name="robots" content="index, follow" />
     <meta name="author" content="Tushar Basak" />
@@ -17,6 +17,50 @@
       name="description"
       content="I'm Tushar Basak, a Data Engineer. Welcome to my portfolio website! As a recent data engineering graduate, I am excited to showcase my skills and experience in big data processing, ETL, database management, data architecture, and more. I specialize in designing and implementing efficient data pipelines, ensuring data quality and accuracy, and utilizing cloud computing platforms for scalable data solutions. With hands-on experience in Python programming, and data visualization, I am equipped to solve complex data problems and provide valuable insights for businesses. Take a look at my projects and experience, and feel free to contact me for any inquiries."
     />
+
+    <!-- Open Graph meta tags for social media sharing -->
+    <meta property="og:title" content="Your Portfolio Website" />
+    <meta
+      property="og:description"
+      content="Description of your portfolio website, highlighting your expertise as a data engineer"
+    />
+    <meta
+      property="og:image"
+      content="URL of your website's image for social sharing"
+    />
+    <meta property="og:url" content="URL of your portfolio website" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card meta tags for social media sharing -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Your Portfolio Website" />
+    <meta
+      name="twitter:description"
+      content="Description of your portfolio website, highlighting your expertise as a data engineer"
+    />
+    <meta
+      name="twitter:image"
+      content="URL of your website's image for social sharing"
+    />
+
+    <!-- Schema.org markup for better search result representation -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Your Name",
+        "jobTitle": "Data Engineer",
+        "url": "URL of your portfolio website",
+        "sameAs": [
+          "URL of your LinkedIn profile",
+          "URL of your GitHub profile",
+          "URL of your other relevant social media profiles"
+        ]
+      }
+    </script>
+
+    <link rel="canonical" href="URL of your portfolio website" />
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
     <title>Tushar</title>
     <!-- CSS FILES -->
     <link rel="stylesheet" href="css/style.css" />
@@ -89,25 +133,25 @@
         </ul>
         <div class="footer">
           <div class="social-icons padd-25">
-            <a href="https://github.com/Tushar0o7" target="_blank"
+            <a href="https://github.com/tusharbasak97" target="_blank"
               ><i class="fa-brands fa-github"></i
             ></a>
             <a
-              href="https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fgithub.com%2FTUSHARBASAK5&screen_name=TUSHARBASAK5"
+              href="https://twitter.com/intent/user?screen_name=tusharbasak97"
               target="_blank"
               ><i class="fa-brands fa-twitter"></i
             ></a>
-            <a href="https://www.instagram.com/tushar0o7/" target="_blank"
+            <a href="https://www.instagram.com/tbasak0/" target="_blank"
               ><i class="fa-brands fa-instagram"></i
             ></a>
-            <a href="https://www.linkedin.com/in/tushar0o7/" target="_blank"
+            <a href="https://www.linkedin.com/in/tusharbasak97/" target="_blank"
               ><i class="fa-brands fa-linkedin-in"></i
             ></a>
           </div>
           <p>
             &copy; Copyright 2023 <br />Designed by
             <a
-              href="https://linktr.ee/Tushar0o7"
+              href="https://linktr.ee/tusharbasak97"
               target="_blank"
               rel="noopener noreferrer"
               ><span>Tushar Basak</span></a
@@ -138,14 +182,14 @@
                   data engineering.
                 </p>
                 <a
-                  href="https://www.linkedin.com/in/tushar0o7/"
+                  href="https://www.linkedin.com/in/tusharbasak97/"
                   class="btn hire-me"
                   target="_blank"
                   >Hire Me</a
                 >
               </div>
               <div class="home-img">
-                <img src="assets/hero.jpg" alt="" />
+                <img src="assets/hero.jpg" alt="Tushar Basak" />
               </div>
             </div>
           </div>
@@ -189,7 +233,7 @@
                       <div class="info-item padd-15">
                         <p>
                           <i class="fa-solid fa-angle-right"></i> Age:
-                          <span>25</span>
+                          <span id="age"></span>
                         </p>
                       </div>
                       <div class="info-item padd-15">
@@ -210,8 +254,8 @@
                       </div>
                       <div class="info-item padd-15">
                         <p>
-                          <i class="fa-solid fa-angle-right"></i> Whatsapp:<span
-                            ><a href="https://wa.link/o4xxr3"
+                          <i class="fa-solid fa-angle-right"></i> WhatsApp:<span
+                            ><a href="https://wa.link/pwvy3u"
                               ><span>Click here</span></a
                             ></span
                           >
@@ -220,7 +264,7 @@
                       <div class="info-item padd-15">
                         <p>
                           <i class="fa-solid fa-angle-right"></i> City:
-                          <span>Kanpur, UP</span>
+                          <span>Kanpur, India</span>
                         </p>
                       </div>
                     </div>
@@ -345,7 +389,7 @@
                             </p>
                           </div>
                           <!-- timeline item -->
-                          <div class="timeline-item">
+                          <!-- <div class="timeline-item">
                             <div class="circle-dot"></div>
                             <h3 class="timeline-date">
                               <i class="fa fa-calendar"></i> 2021-2023
@@ -359,9 +403,9 @@
                               molestias minus, fuga, quod sunt inventore optio
                               quaerat alias fugiat saepe temporibus ut.
                             </p>
-                          </div>
+                          </div> -->
                           <!-- timeline item -->
-                          <div class="timeline-item">
+                          <!-- <div class="timeline-item">
                             <div class="circle-dot"></div>
                             <h3 class="timeline-date">
                               <i class="fa fa-calendar"></i> 2021-2023
@@ -375,7 +419,7 @@
                               molestias minus, fuga, quod sunt inventore optio
                               quaerat alias fugiat saepe temporibus ut.
                             </p>
-                          </div>
+                          </div> -->
                         </div>
                       </div>
                     </div>
